@@ -183,6 +183,14 @@ print(znakiod)
 zadanie9= "Zadanie 9"
 print(zadanie9)
 
+lista = [1, 2, 3, 4, 5, 6]
+zad9 = len(lista)-1
+for i in range(0,zad9):
+   if (lista[i]%2 > 0):
+       lista[i] = 'EEEEEE'
+   elif (lista[i]%2 == 0):
+       lista[i] = 'E'
+   print(lista[i])
 
 
 # Zadanie 10 #
